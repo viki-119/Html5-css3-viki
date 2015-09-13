@@ -1,4 +1,4 @@
-transform为css3属性，主要用于元素的变形处理
+transform为css3属性，主要用于元素的变形处理(ie9+)
 属性：translate，rotate，scale，skew；平移，旋转，缩放，斜切；
 
 translate：指定对象的2D translation；
@@ -11,4 +11,17 @@ rotate：指定对象的2D rotation，需先有transform-origin属性的定义�
      
 scale：指定对象的2D 缩放。第一个参数对应x轴，第二个参数对应y轴。
        如果第二个参数未提供，则默认取第一个参数的值；
+       也有中心点的属性，transform-origin
      例如：scale(0.5,0.5)
+     
+skew：指定对象的斜切扭曲。第一个参数对应x轴，第二个参数对应y轴。
+      如果第二个参数未提供，则默认值为0.
+     例如：skew(50deg,20deg)     
+
+transiton为css3属性，主要用于元素的过度动画处理；（ie10+兼容）
+      属性：property，duration，timing-function，delay
+      property:检索或设置对象中的参数过渡的属性。
+      duration：过渡动画的持续时间。
+      timing-function：检索或设置对象中过渡的动画类型
+      (linear,ease,ease-in,ease-out,ease-in-out)
+      delay:检索或设置对象延迟过渡的时间。
