@@ -1,0 +1,7 @@
+transform为css3属性，主要用于元素的变形处理
+属性：translate，rotate，scale，skew；平移，旋转，
+
+translate：指定对象的2D translation；
+           第一个参数对应x轴，第二个参数对应y轴。有正负之分；
+           如果第二个参数未提供，则默认值为0.
+     例如：translate(10px,10px)
