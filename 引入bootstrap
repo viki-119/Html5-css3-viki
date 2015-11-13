@@ -4,6 +4,7 @@
     	<meta charset="utf-8">
 		<!-- 新 Bootstrap 核心 CSS 文件 -->
 		<link rel="stylesheet" href="./bootstrap.min.css">
+        <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
     </head>
     <body>
     	<div class="panel panel-primary">
@@ -44,5 +45,26 @@
     			</div>
     		</div>
     	</div>
+
+		<div ng-controller="MyController">
+		  Your name:
+			<input type="text" ng-model="username">
+			<button ng-click='sayHello()'>greet</button>
+		 	<hr>
+		 	<div class="group">
+				<input type="text" value={{greeting}}>
+		 		
+		 	</div>
+		</div>
+
+		<script>
+			var app=angular.module('scopeExample',[]);
+			app.controller('MyController',['$scope',function($scope){
+				$scope.username="lucy";
+				$scope.sayHello=function(){
+					$scope.greeting='hello'+$scope.username+'!';
+				}
+			}]);
+		</script>
     </body>
 </html>
