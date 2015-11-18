@@ -1,4 +1,8 @@
 # html5-css3
+zencoding emmet 使用技巧：
+html:5 生成html整体结构
+
+
 bootstrap中文官网
 http://www.bootcss.com/
 
@@ -14,3 +18,4 @@ http://www.bootcss.com/
 		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+
