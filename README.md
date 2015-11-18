@@ -3,6 +3,9 @@ zencoding emmet 使用技巧：
 
 html:5 生成html整体结构
 
+http://blog.chinaunix.net/uid-22414998-id-3184766.html
+
+html>(head>(title+style+script[src=abc$.js]*3))+body>((.content>.nav>ul>li*5>a>span)+(.sidebar>.top+.middle+.bottom)+.main>.acticle*3>h1{文章标题$}+p)+.footer{版权信息}
 
 bootstrap中文官网
 http://www.bootcss.com/
