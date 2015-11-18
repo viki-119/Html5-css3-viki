@@ -1,5 +1,13 @@
 # html5-css3
-zencoding emmet 使用技巧：
+zencoding emmet 安装使用技巧：
+
+eclipse中安装zen coding(emmet)的方法
+
+http://jingyan.baidu.com/article/d713063507e72313fdf475ff.html
+
+sublime中如何安装emmet 
+
+http://blog.csdn.net/gebitan505/article/details/29565249
 
 html:5 生成html整体结构
 
