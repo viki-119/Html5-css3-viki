@@ -8,7 +8,9 @@ sublime中如何安装emmet
 
 http://blog.csdn.net/gebitan505/article/details/29565249
 
-Win7下快捷键Ctrl+Alt+Enter调出zencoding的心印(koan)，koan一词源于佛语，
+Win7下快捷键Ctrl+Alt+Enter调出zencoding的心印(koan)，koan一词源于佛语。
+
+html>(head>(title+style+script[src=abc$.js]*3))+body>((.content>.nav>ul>li*5>a>span)+(.sidebar>.top+.middle+.bottom)+.main>.acticle*3>h1{文章标题$}+p)+.footer{版权信息}
 
 html:5 生成html整体结构
 
