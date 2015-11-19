@@ -13,7 +13,7 @@ Win7下快捷键Ctrl+Alt+Enter调出zencoding的心印(koan)，koan一词源于�
 
 生成一个比较综合的框架网页：
 
-html>(head>(title+style+script[src=abc$.js]*3))+body>((.content>.nav>ul>li*5>a>span)+(.sidebar>.top+.middle+.bottom)+.main>.acticle*3>h1{文章标题$}+p)+.footer{版权信息}
+html>(head>(title+style+script[src=abc$.js]&#42;3))+body>((.content>.nav>ul>li*5>a>span)+(.sidebar>.top+.middle+.bottom)+.main>.acticle*3>h1{文章标题$}+p)+.footer{版权信息}
 
 一个生成bootstrap结构的zencoding写法：
 
