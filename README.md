@@ -11,9 +11,12 @@ html:5 生成html整体结构
 
 一个比较好的学习zencoding的网页：http://blog.chinaunix.net/uid-22414998-id-3184766.html
 
+生成一个比较综合的框架网页：
+
 html>(head>(title+style+script[src=abc$.js]*3))+body>((.content>.nav>ul>li*5>a>span)+(.sidebar>.top+.middle+.bottom)+.main>.acticle*3>h1{文章标题$}+p)+.footer{版权信息}
 
 一个生成bootstrap结构的zencoding写法：
+
 html>(head>meta+script+link+title)+body>.panel.panel-primary>(.panel-heading>.panel-title{My Html})>.panel-body>.row>.col-md-12>(nav.menu>h2[style=border-bottom:1px solid gray;]>a*3)+br+form.form-horizontal[role=form]>[ng-view]
 
 bootstrap中文官网
