@@ -1,9 +1,9 @@
 # html5-css3
 zencoding emmet 安装使用技巧：
 
-eclipse中安装zen coding(emmet)的方法：http://jingyan.baidu.com/article/d713063507e72313fdf475ff.html 
+Eclipse中安装zen coding(emmet)的方法：http://jingyan.baidu.com/article/d713063507e72313fdf475ff.html 
 
-sublime中如何安装emmet ：http://blog.csdn.net/gebitan505/article/details/29565249
+Sublime中如何安装emmet ：http://blog.csdn.net/gebitan505/article/details/29565249
 
 Win7下快捷键Ctrl+Alt+Enter调出zencoding的心印(koan)，koan一词源于佛语。
 
