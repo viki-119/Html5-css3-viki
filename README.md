@@ -17,7 +17,7 @@ html>(head>(title+style+script[src=abc$.js]*3))+body>((.content>.nav>ul>li*5>a>s
 
 一个生成bootstrap结构的zencoding写法：
 
-html>(head>meta+script+link+title)+body>.panel.panel-primary>(.panel-heading>.panel-title{My Html})>.panel-body>.row>.col-md-12>(nav.menu>h2[style=border-bottom:1px solid gray;]>a*3)+br+form.form-horizontal[role=form]>(.form-group>label.col-md-2.control-label+.col-md-2>input.form-control)*3
+html>(head>meta+script+link+title)+body>.panel.panel-primary>(.panel-heading>.panel-title{My Html})>.panel-body>.row>.col-md-12>(nav.menu>h2[style=border-bottom:1px solid gray;]>a&#42;3)+br+form.form-horizontal[role=form]>(.form-group>label.col-md-2.control-label+.col-md-2>input.form-control)&#42;3
 
 bootstrap中文官网
 http://www.bootcss.com/
