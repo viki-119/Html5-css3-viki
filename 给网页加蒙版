@@ -5,13 +5,13 @@
         <style type="text/css">
             .loading_page {
                 background-color: #ccc;
-                height: 200%;
+                height: 400%;
                 left: 0;
                 opacity: 0.5;
                 position: absolute;
                 top: 0;
                 width: 100%;
-                z-index: 2000
+                z-index: 500
             }
         </style>
     </head>
