@@ -7,7 +7,7 @@ Sublime中如何安装emmet ：http://blog.csdn.net/gebitan505/article/details/2
 
 notepad++中安装zen coding(emmet)：http://my.oschina.net/yangphere/blog/70981
 
-Win7下快捷键Ctrl+Alt+Enter调出zencoding的心印(koan)，koan一词源于佛语。
+sublime下快捷键Ctrl+Alt+Enter调出zencoding的心印(koan)，koan一词源于佛语。
 
 生成html5整体结构zencoding写法：html:5
 
