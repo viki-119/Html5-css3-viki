@@ -7,7 +7,8 @@
 	<title>html 5语法</title>
 	
 	<link rel="icon" href="./demo_icon.gif" type="image/gif" size="24*24" />
-	<link href="demo_icon.gif" rel="shortcut icon">
+	<!--<link href="demo_icon.gif" rel="shortcut icon">
+	<link href="favicon.ico" rel="shortcut icon"  type="image/x-icon">-->
 	<base href="http://localhost/" target="_blank"/>
 	<script defer src="http://code.jquery.com/jquery-1.10.1.min.js" onload="alert('a')"></script><!-- 同步 -->
 	<script async src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" onload="alert('b')"></script><!-- 异步 -->
