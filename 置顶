@@ -1,0 +1,35 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Document</title>
+	</head>
+	<body>
+  	<footer>
+  		<div>
+  			<script>
+  				$(function(){
+  					$('#returnTop').click(function () {
+  					    $('html,body').animate({ scrollTop: '0px' }, 0);
+  					    return false;
+  					});
+  				})
+  			</script>
+  			<style>
+  				#returnTop{
+  				    width: 36px;
+  				    height: 34px;
+  				    position: fixed;
+  				    bottom: 19px;
+  				    right: 70px;
+  				    background: transparent url(./images/gotoTop.png) -4px -4px no-repeat;
+  				}
+  				#returnTop:hover{
+  					background:transparent url(./images/gotoTop.png) -77px -4px no-repeat;
+  				}
+  			</style>
+  			<a id="returnTop" href="" type="" title="go to top" ></a>
+  		</div>
+  	</footer>
+	</body>
+	</html>
