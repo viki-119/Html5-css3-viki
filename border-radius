@@ -1,3 +1,5 @@
+border-radius: 5px 4px 3px 2px; /* 四个半径值分别是左上角、右上角、右下角和左下角，顺时针 */ 
+
 <!doctype html>
 <html>
     <head>
