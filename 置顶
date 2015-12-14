@@ -7,7 +7,7 @@ http://my.oschina.net/u/1444945/blog/395916
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<script type="text/javascript">
 			$(function(){
-				$(window).scroll(function(event){
+				$(window).scroll(function(event){//window.onscroll =function(){}
 					if(document.body.style.overflow!="hidden"&&document.body.scroll!="no"&&document.body.scrollTop>0) {
 					   $("#returnTop").css("display","block");
 					} else {
