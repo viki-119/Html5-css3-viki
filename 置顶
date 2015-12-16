@@ -24,7 +24,7 @@ http://my.oschina.net/u/1444945/blog/395916
   			<script>
   				$(function(){
   					$('#returnTop').click(function () {
-  					    $('html,body').animate({ scrollTop: '0px' }, 0);
+  					    $('html,body').animate({ scrollTop: '0px' }, 0);//$("body").scrollTop("0px");
   					    return false;
   					});
   				})
