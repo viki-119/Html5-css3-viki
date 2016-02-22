@@ -23,7 +23,7 @@
 	</script>
 </head>
 <body>
-	<!-- 由于第11行的作用：这里会访问 localhost/# -->
+	<!-- 由于第16行的作用：这里会访问 localhost/# -->
 	<a media="handheld" href="#">手持</a>
 	<a media="tv" href="#">电视</a>
 	<a href="http://www.mukewang.com/" hreflang="zh" ref="external">慕课网</a>
