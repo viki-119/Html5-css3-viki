@@ -1,5 +1,5 @@
 # html5-css3
-慕课网css3:   http://www.imooc.com/learn/33
+慕课网css3教程:   http://www.imooc.com/learn/33
 
 zencoding emmet 安装使用技巧：
 
