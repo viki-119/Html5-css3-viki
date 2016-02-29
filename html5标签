@@ -158,6 +158,8 @@
 	
 	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
 		0<input type="range" id="a" value="50">100+
+		<input type="range" id="a" value="1.0" max="3" min="1" step="0.01"
+       style="display:block;margin:20px auto;width:800px">
 		<input type="number" id="b" value="50">
 		<output name="x" for="a b">=100</output>
 	</form>
