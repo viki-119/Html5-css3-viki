@@ -2,11 +2,11 @@ http://www.cnblogs.com/zhaoran/archive/2013/05/24/3097482.html
 
 box-sizing属性可以为三个值之一：content-box（default）padding-box（inherit），border-box。
 
-content-box，border和padding不计算入width之内
+content-box:border和padding不计算入width之内
 
-padding-box（inherit），padding计算入width内
+padding-box（inherit）:padding计算入width内
 
-border-box，border和padding计算入width之内，其实就是怪异模式了~
+border-box:border和padding计算入width之内，其实就是怪异模式了~
 
 ie8+浏览器支持content-box和border-box；
 
