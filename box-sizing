@@ -19,33 +19,45 @@ ff则支持全部三个值。
 -moz-box-sizing:100px; //for ff
 
 box-sizing:100px; //for other
-
-<style type="text/css">
-    .content-box{
-        box-sizing:content-box;
-        -moz-box-sizing:content-box;
-        width: 100px;
-        height: 100px;
-        padding: 20px;
-        border: 5px solid #E6A43F;
-        background: blue;
-    }
-    .padding-box{
-        box-sizing:padding-box;
-        -moz-box-sizing:padding-box;
-        width: 100px;
-        height: 100px;
-        padding: 20px;
-        border: 5px solid #186645;
-        background: red;                
-    }
-    .border-box{
-        box-sizing:border-box;
-        -moz-box-sizing:border-box;
-        width: 100px;
-        height: 100px;
-        padding: 20px;
-        border: 5px solid #3DA3EF;
-        background: yellow;
-    }
-</style>
+/***************************************************************************************/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box-sizing</title>
+    <style type="text/css">
+        #content-box{
+            box-sizing:content-box;
+            -moz-box-sizing:content-box;
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid #E6A43F;
+            background: blue;
+        }
+        #padding-box{
+            box-sizing:padding-box;
+            -moz-box-sizing:padding-box;
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid #186645;
+            background: red;
+        }
+        #border-box{
+            box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid #3DA3EF;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div id="content-box"></div>
+<div id="border-box"></div>
+<div id="padding-box"></div>
+</body>
+</html>
