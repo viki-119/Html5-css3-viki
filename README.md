@@ -5,6 +5,10 @@ zencoding emmet 安装使用技巧：
 
 webstorm下使用zencoding：http://my.oschina.net/longteng2013/blog/138010
 
+http://www.cnblogs.com/jikey/archive/2012/01/16/2323590.html
+
+webstorm下安装zencoding：http://www.myexception.cn/web/603475.html
+
 Eclipse中安装zen coding(emmet)的方法：http://jingyan.baidu.com/article/d713063507e72313fdf475ff.html 
 
 Sublime中如何安装emmet ：http://blog.csdn.net/gebitan505/article/details/29565249
