@@ -14,11 +14,11 @@
 </head>
 <div class="menubar">
     <div class="menuitem">
-        <div>菜单1</div>
-        <div class="submenu">
-            <div>子菜单1</div>
-            <div>子菜单2</div>
-        </div>
+      <div>菜单1</div>
+      <div class="submenu">
+          <div>子菜单1</div>
+          <div>子菜单2</div>
+      </div>
     </div>
     <div class="menuitem">
         <div>菜单2</div>
